@@ -35,7 +35,7 @@
 
     <div class="welcome">
         <h1>WELCOME TO HARNIKKY <br> FASHION STORE.</h1>
-        <a href="">Shop Now >>></a>
+        <button type="button">Shop Now</button>
     </div>
 </div>
     
