@@ -8,9 +8,9 @@
     <title>Online-Store</title>
 
     <style>
-        .container{
+        body{
             position: relative;
-            height: 700px;
+            height: 100vh;
             background-image: linear-gradient(#DA1396, #da139475), url('img/bg.jpeg'); 
             background-repeat: no-repeat;
             background-size: cover; 
@@ -22,10 +22,7 @@
 <div class="container">
     <!-- here we the code for the Navigation Bar. -->
     <div class="navbar">
-        <div class="logo">
-            <h3>LOGO</h3>
-            <div class="overlay"></div>
-        </div>
+        <h3>LOGO</h3>
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#news">News</a></li>
@@ -36,7 +33,7 @@
 
     <div class="welcome">
         <h1>WELCOME TO HARNIKKY <br> FASHION STORE.</h1>
-        <button type="button">Shop Now</button>
+        <a href="login.php"><button type="button">Shop Now</button></a>
     </div>
 </div>
     
