@@ -85,4 +85,16 @@
     color: rgb(95, 95, 95);
 }
 
+.form{
+    position: relative;
+    margin-top: 10%;
+    margin-left: 58%;
+    transform: translate(-50%, -50%);
+}
+
+input{
+    padding: 10px;
+    width: 55%;
+}
+
 
