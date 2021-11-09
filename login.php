@@ -23,7 +23,7 @@
 <div class="container">
     <!-- here we the code for the Navigation Bar. -->
     <div class="navbar">
-        <img src="img/logo.png" alt="Harnikky Logo" width="70px">
+        <a href="home.php"><img src="img/logo.png" alt="Harnikky Logo" width="70px"></a>
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#news">News</a></li>
