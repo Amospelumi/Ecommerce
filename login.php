@@ -9,10 +9,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <style>
-        body{
+        .container{
             position: relative;
             height : 50vh;
-            background-image: linear-gradient(#DA1396, #da139475); 
+            background-image: url('img/login.jpg'); 
             background-repeat: no-repeat;
             background-size: cover; 
         }
@@ -41,10 +41,10 @@
     </div>
     <div class="form">
         <form action="index.php">
-            <label for="username">User Name:</label><br>
+            <label for="username">User Name:</label><br><br>
             <input type="text" name="username" placeholder="Pel***"><br><br>
 
-            <label for="password">Password:</label><br>
+            <label for="password">Password:</label><br><br>
             <input type="password" name="password" placeholder="******"><br><br>
 
             <input type="submit">
