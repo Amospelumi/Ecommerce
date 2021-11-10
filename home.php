@@ -20,7 +20,7 @@
     </style>
 </head>
 <body>
-<div class="container">
+<div class="container"></div>
     <!-- here we the code for the Navigation Bar. -->
     <div class="navbar">
         <a href="home.php"><img src="img/logo.png" alt="Harnikky Logo" width="70px"></a>
@@ -36,7 +36,10 @@
         <h1>WELCOME TO HARNIKKY <br> FASHION STORE.</h1>
         <a href="login.php"><button type="button">Shop Now</button></a>
     </div>
-</div>
+
+    <div class="footer">
+        <h4>Copyright © 2020 - <?php echo date("Y")?>. Amospelumi</h4>
+    </div>
     
 </body>
 </html>

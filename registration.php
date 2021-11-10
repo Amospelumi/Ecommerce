@@ -41,14 +41,36 @@
     </div>
     <div class="form">
         <form action="index.php">
-            <label for="username">User Name:</label><br><br>
-            <input type="text" name="username" placeholder="Pel***" ><br><br>
+            <div class="first-batch">
+                <label for="username">User Name:</label><br><br>
+                <input type="text" name="username" placeholder="Pel***" ><br><br>
 
-            <label for="password">Password:</label><br><br>
-            <input type="password" name="password" placeholder="******"><br><br>
+                <label for="username">User Name:</label><br><br>
+                <input type="text" name="username" placeholder="Pel***" ><br><br>
 
-            <input type="submit">
-            <p>Click <a href="registration.php" style="text-decoration:none;">Register</a> if you don't have an account.</p>
+                <label for="username">User Name:</label><br><br>
+                <input type="text" name="username" placeholder="Pel***" ><br><br>
+
+                <label for="password">Password:</label><br><br>
+                <input type="password" name="password" placeholder="******"><br><br>
+            </div>
+
+            <div class="first-batch">
+                <label for="username">User Name:</label><br><br>
+                <input type="text" name="username" placeholder="Pel***" ><br><br>
+
+                <label for="username">User Name:</label><br><br>
+                <input type="text" name="username" placeholder="Pel***" ><br><br>
+
+                <label for="username">User Name:</label><br><br>
+                <input type="text" name="username" placeholder="Pel***" ><br><br>
+
+                <label for="password">Password:</label><br><br>
+                <input type="password" name="password" placeholder="******"><br><br>
+            </div>
+
+                <input type="submit">
+            
         </form>
     </div>
 

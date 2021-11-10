@@ -60,20 +60,21 @@
 .welcome button{
     padding: 20px;
     box-sizing: border-box;
-    border-style: none;
+    border: 2px solid rgb(160, 9, 9);
     border-radius: 10px;
     width: 50%;
     font-size: 20px;
     font-weight: 700;
-    background-color: black;
+    background-color: Transparent;
     color: white;
     transition: 2s;  
     
 }
-
+.welcome button:hover{
+    background-color: rgb(160, 9, 9);;
+}
 .welcome button:hover::after{
     content: " >>>";
-    background-color: transparent;
 }
 
 .headline{
@@ -104,6 +105,16 @@ input[type="submit"]{
     color: white;
     font-weight: 700;
     cursor: pointer;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
 }
 
 
