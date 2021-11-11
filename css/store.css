@@ -98,6 +98,7 @@ input{
     border-style: none;
     background-color: #3b3a3b17;
     border-radius: 4px;
+    box-shadow: 1px 1px 2px black;
 }
 input[type="submit"]{
     width: 60%;
@@ -116,5 +117,6 @@ input[type="submit"]{
     color: white;
     text-align: center;
 }
+
 
 

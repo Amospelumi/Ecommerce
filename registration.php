@@ -33,44 +33,57 @@
     </div>
 
     <div class="loginHeading">
-        <h2>Login <i class="fas fa-lock"></i></h2>
+        <h2>Registration<i class="fa fa-address-book" aria-hidden="true"></i></h2>
     </div>
 
     <div class="headline">
         <h3>Kindly Login to your Account.</h3>
     </div>
-    <div class="form">
+    
+    <div class="fcontainer">
+        <div class="title">Kindly Login to your Account.</div>
         <form action="index.php">
-            <div class="first-batch">
-                <label for="username">User Name:</label><br><br>
-                <input type="text" name="username" placeholder="Pel***" ><br><br>
+            <div class="user-details">
+                <div class="input-box">
+                    <label for="fullname">Full Name:</label><br>
+                    <input type="text" name="fullname" placeholder="Enter your name" required>
+                </div>
 
-                <label for="username">User Name:</label><br><br>
-                <input type="text" name="username" placeholder="Pel***" ><br><br>
+                <div class="input-box">
+                    <label for="fullname">Full Name:</label><br>
+                    <input type="text" name="fullname" placeholder="Enter your name" required>
+                </div>
 
-                <label for="username">User Name:</label><br><br>
-                <input type="text" name="username" placeholder="Pel***" ><br><br>
+                <div class="input-box">
+                    <label for="fullname">Full Name:</label><br>
+                    <input type="text" name="fullname" placeholder="Enter your name" required>
+                </div>
 
-                <label for="password">Password:</label><br><br>
-                <input type="password" name="password" placeholder="******"><br><br>
+                <div class="input-box">
+                    <label for="fullname">Full Name:</label><br>
+                    <input type="text" name="fullname" placeholder="Enter your name" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="fullname">Full Name:</label><br>
+                    <input type="text" name="fullname" placeholder="Enter your name" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="fullname">Full Name:</label><br>
+                    <input type="text" name="fullname" placeholder="Enter your name" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="fullname">Full Name:</label><br>
+                    <input type="text" name="fullname" placeholder="Enter your name" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="fullname">Full Name:</label><br>
+                    <input type="text" name="fullname" placeholder="Enter your name" required>
+                </div>
             </div>
-
-            <div class="first-batch">
-                <label for="username">User Name:</label><br><br>
-                <input type="text" name="username" placeholder="Pel***" ><br><br>
-
-                <label for="username">User Name:</label><br><br>
-                <input type="text" name="username" placeholder="Pel***" ><br><br>
-
-                <label for="username">User Name:</label><br><br>
-                <input type="text" name="username" placeholder="Pel***" ><br><br>
-
-                <label for="password">Password:</label><br><br>
-                <input type="password" name="password" placeholder="******"><br><br>
-            </div>
-
-                <input type="submit">
-            
         </form>
     </div>
 
