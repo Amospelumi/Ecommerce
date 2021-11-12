@@ -40,56 +40,70 @@
         <h3>Kindly Login to your Account.</h3>
     </div>
     
-    <div class="fcontainer">
-        <div class="title">Kindly Login to your Account.</div>
         <form action="index.php">
-            <div class="user-details">
-                <div class="input-box">
-                    <label for="fullname">Full Name:</label><br>
-                    <input type="text" name="fullname" placeholder="Enter your name" required>
-                </div>
+            <table>
+                <tr>
+                    <td>
+                        <label for="fname">First Name:</label><br>
+                        <input type="text" name="fullname" placeholder="Enter your First name" required><br>
+                    </td>
 
-                <div class="input-box">
-                    <label for="fullname">Full Name:</label><br>
-                    <input type="text" name="fullname" placeholder="Enter your name" required>
-                </div>
+                    <td>
+                        <label for="lname">Last Name:</label><br>
+                        <input type="text" name="lname" placeholder="Enter your Last name" required><br>
+                    </td>
+                </tr>
 
-                <div class="input-box">
-                    <label for="fullname">Full Name:</label><br>
-                    <input type="text" name="fullname" placeholder="Enter your name" required>
-                </div>
+                <tr>
+                    <td>
+                        <label for="Telephone">Telephone:</label><br>
+                        <input type="text" name="telephone" placeholder="09012345667" required><br>
+                    </td>
 
-                <div class="input-box">
-                    <label for="fullname">Full Name:</label><br>
-                    <input type="text" name="fullname" placeholder="Enter your name" required>
-                </div>
+                    <td>
+                        <label for="gender">Gender:</label><br>
+                        <select name="gender" id="gender">
+                            <option value="Select your Gender">Select your Gender</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                        </select><br>
+                    </td>
+                </tr>
+                    
+                <tr>
+                    <td>
+                        <label for="address">Address:</label><br>
+                        <input type="text" name="address" placeholder="fill your address"><br>
+                    </td>
 
-                <div class="input-box">
-                    <label for="fullname">Full Name:</label><br>
-                    <input type="text" name="fullname" placeholder="Enter your name" required>
-                </div>
+                    <td>
+                        <label for="password">Password:</label><br>
+                        <input type="password" name="password" placeholder="Enter your password" required><br>
+                    </td>
+                </tr>
 
-                <div class="input-box">
-                    <label for="fullname">Full Name:</label><br>
-                    <input type="text" name="fullname" placeholder="Enter your name" required>
-                </div>
+                <tr>
+                    <td>
+                        <label for="email-address">Email-Address:</label><br>
+                        <input type="text" name="email" placeholder="Enter your email" required><br>
+                    </td>
+                    <td>
+                        <label for="confpass">Confirm Password:</label><br>
+                        <input type="password" name="confpass" placeholder="Confirm your password" required><br>
+                    </td><br><br>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Register"></td>
+                </tr>
 
-                <div class="input-box">
-                    <label for="fullname">Full Name:</label><br>
-                    <input type="text" name="fullname" placeholder="Enter your name" required>
-                </div>
-
-                <div class="input-box">
-                    <label for="fullname">Full Name:</label><br>
-                    <input type="text" name="fullname" placeholder="Enter your name" required>
-                </div>
-            </div>
+            </table>
+                
         </form>
     </div>
 
-    <div class="footer">
+    <!-- <div class="footer">
         <h4>Copyright © 2020 - <?php echo date("Y")?>. Amospelumi</h4>
-    </div>
+    </div> -->
 </div>
     
 </body>

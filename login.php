@@ -47,7 +47,7 @@
             <label for="password">Password:</label><br><br>
             <input type="password" name="password" placeholder="******"><br><br>
 
-            <input type="submit">
+            <input type="submit" id="sub">
             <p>Click <a href="registration.php" style="text-decoration:none;">Register</a> if you don't have an account.</p>
         </form>
     </div>

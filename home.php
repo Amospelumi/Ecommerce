@@ -38,9 +38,9 @@
         <a href="login.php"><button type="button">Shop Now</button></a>
     </div>
 
-    <div class="footer">
+    <!-- <div class="footer">
         <h4>Copyright © 2020 - <?php echo date("Y")?>. Amospelumi</h4>
-    </div>
+    </div> -->
     
 </body>
 </html>
